@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/kanJi_hide"
+        android:orderInCategory="1"
+        android:checkable="true"
+        android:title="Word"
+        android:checked="true"
+        />
+
+    <item android:id="@+id/hira_hide"
+        android:orderInCategory="3"
+        android:checkable="true"
+        android:title="Pronunciation"
+        android:checked="true"
+        />
+
+    <item android:id="@+id/kor_hide"
+        android:orderInCategory="2"
+        android:checkable="true"
+        android:title="Mean"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/Close"
+        android:orderInCategory="4"
+        android:title="Close"
+        />
+
+
+</menu>

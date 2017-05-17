@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/tab3_Back"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Word"
+        android:id="@+id/textword"
+        android:layout_alignParentTop="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editword"
+        android:layout_below="@+id/textword"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Pronunciation"
+        android:id="@+id/textpro"
+        android:layout_below="@+id/editword"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editpro"
+        android:layout_weight="0.13"
+        android:layout_below="@+id/textpro"
+        android:textSize="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Mean"
+        android:id="@+id/textmean"
+        android:layout_below="@+id/editpro"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editmean"
+        android:layout_weight="0.15"
+        android:layout_below="@+id/textmean"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/v_class"
+        android:layout_below="@+id/editmean"
+        android:layout_alignParentStart="true"
+        android:entries="@array/v_class_list"
+        android:paddingTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:spinnerMode="dialog"
+        android:background="#B7F0B1"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/spinner_v_list"
+        android:layout_below="@+id/v_class"
+        android:layout_alignParentStart="true"
+        android:entries="@array/word_list"
+        android:paddingTop="5dp"
+        android:textStyle="bold"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:spinnerMode="dialog"
+        android:background="#B2EBF4"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Save"
+        android:id="@+id/savebutton"
+        android:layout_below="@+id/spinner_v_list"
+        android:layout_alignParentStart="true"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#176317"
+        android:background="#FFD8D8"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Web Search"
+        android:id="@+id/websearchbutton"
+        android:paddingTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#176317"
+        android:background="#D1B2FF"
+        android:layout_below="@+id/savebutton"
+        android:layout_alignStart="@+id/savebutton" />
+
+
+</RelativeLayout>

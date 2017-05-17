@@ -1,0 +1,70 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="VOCA Setting"
+        android:key="settings"
+        >
+        <MultiSelectListPreference
+            android:entries="@array/level_list"
+            android:entryValues="@array/level_value"
+            android:key="levelselectlist"
+            android:title="LEVEL SELECT"
+            android:defaultValue="@array/level_value"
+            android:summary=""
+            />
+        <ListPreference
+            android:entries="@array/speed_list"
+            android:entryValues="@array/speed_value"
+            android:key="sectablelsit"
+            android:title="VOCA SPEED"
+            android:defaultValue="3000"
+            />
+        <ListPreference
+            android:key="seltablelist"
+            android:entries="@array/table_list"
+            android:entryValues="@array/table_value"
+            android:title="SELECT VOCA" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="ALL Setting"
+        android:key="pref_key_storage_settings"
+      >
+        <CheckBoxPreference
+            android:key="modifyvocalist"
+            android:checked="false"
+            android:title="MODIFY VOCA"
+            android:summary="You can add or delete vocalist"
+            />
+
+        <EditTextPreference
+            android:key="addvocatable"
+            android:dependency="modifyvocalist"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="ADD VOCA" />
+        <!--ListPreference
+            android:entries="@array/table_list"
+            android:entryValues="@array/table_value"
+            android:dependency="modifyvocalist"
+            android:key="deltablelist"
+            android:title="DELETE VOCA" /-->
+        <Preference
+            android:entries="@array/table_list"
+            android:entryValues="@array/table_value"
+            android:dependency="modifyvocalist"
+            android:key="deltablelist"
+            android:title="DELETE VOCA" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="etc."
+        android:key="storage_settings"
+        >
+        <Preference
+            android:key="information"
+            android:summary="create by Lab.Bombe "
+            android:title="INFORMATION"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

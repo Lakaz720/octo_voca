@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Octopus VOCA</string>
+    <string name="Tab1_name">Tab1</string>
+    <string name="Tab2_name">Tab2</string>
+    <string name="Tab3_name">Tab3</string>
+    <string name="Tab4_name">Tab4</string>
+    <string name="Tab5_name">Tab5</string>
+
+    <!-- Tab2에 쓰일 버튼 Text 불러오는거 일단 이거로-->
+    <string name="btn1_str">btn1</string>
+    <string name="btn2_str">btn2</string>
+    <string name="btn3_str">btn3</string>
+    <string name="btn4_str">btn4</string>
+
+</resources>

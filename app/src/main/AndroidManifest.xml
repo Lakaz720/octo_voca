@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bombelab.lakaz.octo_voca">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:label="@string/Tab1_name"
+            android:name="com.bombelab.lakaz.octo_voca.Tab1"
+            />
+        <activity
+            android:label="@string/Tab2_name"
+            android:name="com.bombelab.lakaz.octo_voca.Tab2"
+            />
+        <activity
+            android:label="@string/Tab3_name"
+            android:name="com.bombelab.lakaz.octo_voca.Tab3"
+            />
+        <activity
+            android:label="@string/Tab4_name"
+            android:name="com.bombelab.lakaz.octo_voca.Tab4"
+            />
+        <activity
+            android:label="@string/Tab5_name"
+            android:name="com.bombelab.lakaz.octo_voca.Tab5"
+            />
+
+    </application>
+
+</manifest>

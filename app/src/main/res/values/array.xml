@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="word_list">
+        <item>word1</item>
+    </string-array>
+
+    <string-array name="v_class_list">
+        <item>noun</item>
+        <item>verb</item>
+        <item>adjective</item>
+        <item>adverb</item>
+        <item>etc</item>
+    </string-array>
+
+    <string-array name="table_list">
+        <item>word1</item>
+    </string-array>
+    <string-array name="table_value">
+        <item>1</item>
+    </string-array>
+
+    <string-array name="speed_list">
+        <item>sec 1</item>
+        <item>sec 1.5</item>
+        <item>sec 2</item>
+        <item>sec 2.5</item>
+        <item>sec 3</item>
+    </string-array>
+    <string-array name="speed_value">
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+        <item>3000</item>
+    </string-array>
+
+
+    <string-array name="level_list">
+        <item>level 1 (Red)</item>
+        <item>level 2 (Yellow)</item>
+        <item>level 3 (Blue)</item>
+    </string-array>
+    <string-array name="level_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>
